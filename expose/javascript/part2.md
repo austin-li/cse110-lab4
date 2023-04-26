@@ -10,27 +10,29 @@
 10. it will print 3, since prices.length is 3
 11. it will return [50, 100, 150], same reason as 8
 12.
-    a. student.name
-    b. student["Grad Year"]
-    c. student.greeting()
-    d. student["Favorite Teacher"].name
-    e. student.courseLoad[0]
+    1. student.name
+    2. student["Grad Year"]
+    3. student.greeting()
+    4. student["Favorite Teacher"].name
+    5. student.courseLoad[0]
 13.
-    a. "32", 2 -> "2"
-    b. 1, "3" -> 3
-    c. 3, null -> 0
-    d. "3null", null -> "null"
-    e. 4, true -> 1
-    f. 0, false -> 0 and null -> 0
-    g. "3undefined", undefined -> "undefined"
-    h. NaN, subtract only works on numbers, and undefined can't be turned into a number
+    1. "32", 2 -> "2"
+    2. 1, "3" -> 3
+    3. 3, null -> 0
+    4. "3null", null -> "null"
+    5. 4, true -> 1
+    6. 0, false -> 0 and null -> 0
+    7. "3undefined", undefined -> "undefined"
+    8. NaN, subtract only works on numbers, and undefined can't be turned into a number
 14.
-    a. true, "2" -> 2
-    b. false, in string comparison, "2" > "1"
-    c. true, "2" -> 2
-    d. false, 2 and "2" are different types
-    e. false, true -> 1
-    f. true, Boolean(2) = true
+    1. true, "2" -> 2
+    2. false, in string comparison, "2" > "1"
+    3. true, "2" -> 2
+    4. false, 2 and "2" are different types
+    5. false, true -> 1
+    6. true, Boolean(2) = true
 15. == will try to convert the values into the same type before checking for equality, === will not do any type conversion, so it will only return true if the 2 values have the same type and value
+16. check .js file
 17. [2, 4, 6]. the function goes through each array element and calls callback on it, returning a new array. callback doubles the number, so the new array has all of the elements from [1, 2, 3] but doubled
+18. check .js file
 19. prints 1, 4, and 3, then prints 2 after 1 second
